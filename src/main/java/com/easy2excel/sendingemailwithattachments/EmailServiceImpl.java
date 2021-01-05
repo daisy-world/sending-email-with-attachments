@@ -28,10 +28,10 @@ import org.springframework.web.multipart.MultipartFile;
 @Service
 public class EmailServiceImpl implements EmailService {
 	
-	String SMTP_HOST_NAME = "mail.tekorero.com";
-	int SMTP_HOST_PORT=587 ;
-	String SMTP_AUTH_USER="engage@tekorero.com";
-	String SMTP_AUTH_PWD="Orange123$";
+	String SMTP_HOST_NAME = {YOUR_SMTP_HOST_NAME}
+	int SMTP_HOST_PORT={YOUR_SMTP_PORT} ;
+	String SMTP_AUTH_USER={YOUR_SMTP_AUTH_USER};
+	String SMTP_AUTH_PWD={YOUR_SMTP_AUTH_PASSWORD};
 	
 	
 	
